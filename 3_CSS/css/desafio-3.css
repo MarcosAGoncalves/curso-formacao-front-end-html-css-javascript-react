@@ -1,0 +1,14 @@
+#desafio-3-div{
+   margin: 20px;
+   padding: 20px;
+   border: 1px solid black;
+   outline: 5px solid red;
+   background-color: aqua;
+   box-sizing: border-box;
+   width: 400px;
+   height: 400px;
+   
+}
+.desafio-3-title{
+    color: white;
+}

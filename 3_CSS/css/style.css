@@ -1,0 +1,520 @@
+/* 4 - External */
+
+body {
+  padding-bottom: 500px;
+}
+
+h3 {
+  color: green;
+}
+
+/* p {
+  color: blueviolet;
+  font-size: 40px;
+} */
+
+/* Algum comentário */
+/* Mais um comentário */
+/* Terceiro comentário */
+
+/* Classes */
+.paragraph {
+  background-color: black;
+  color: aqua;
+  padding: 5px;
+}
+
+/* IDs */
+#exclusive-title {
+  background-color: purple;
+  color: yellow;
+  padding: 3px;
+}
+
+/* Ordem das regras */
+h2 {
+  border-bottom: 2px solid red;
+}
+
+.titulo {
+  border-bottom: blue 1px solid;
+}
+
+#algum-titulo {
+  border-bottom: green 1px solid;
+}
+
+/* Nome de cores */
+.color-name {
+  color: crimson;
+}
+
+.hex {
+  color: #55a398;
+}
+
+.hex-2 {
+  color: #123456;
+}
+
+/* Aprofundando em hex */
+.simple-hex {
+  color: #111;
+}
+
+.simple-hex-2 {
+  color: #999;
+}
+
+/* RGB */
+
+.rgb {
+  color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+  color: rgb(199, 255, 10);
+}
+
+/* RGBA */
+
+.rgb-a {
+  color: rgb(200, 199, 45, 0.3);
+  background-color: #111;
+}
+
+/* HSL */
+.hsl {
+  color: hsl(100, 20%, 50%);
+  background-color: #111;
+}
+
+.hsl-2 {
+  color: hsl(201, 70%, 30%);
+  background-color: #111;
+}
+
+/* Backgroud */
+.bg {
+  background-color: #000;
+}
+
+.bg-2 {
+  background-color: rgb(200, 20, 40);
+  color: #00eaff;
+}
+
+/* Backgroud Opacity */
+
+.bg-opacity {
+  background-color: green;
+  opacity: 0.2;
+}
+
+.bg-opacity-2 {
+  background-color: #999;
+  color: #000;
+  opacity: 0.8;
+}
+
+/* RGBA com opacidade */
+
+.rgba-opacity {
+  background-color: rgba(86, 160, 93, 0.5);
+  color: #111;
+}
+
+/* BG Image */
+.bg-image {
+  background-image: url("../img/nature.jpg");
+  padding: 10px;
+  color: #fff;
+}
+
+/* Centralizando BG Image */
+.not-centered-bg,
+.centered-bg {
+  height: 400px;
+  width: 400px;
+  background-image: url("../img/bridge.jpg");
+}
+
+.centered-bg {
+  background-position: center;
+  background-size: cover;
+}
+
+/* Largura e Altura */
+.height-width {
+  height: 200px;
+  width: 100px;
+  background-color: red;
+}
+
+.height-width-2 {
+  background-color: green;
+  height: 300px;
+}
+
+/* Padding (Famoso respiro) */
+.without-padding,
+.padding {
+  background-color: #000;
+  color: white;
+}
+
+.padding {
+  background-color: #333;
+  padding: 20px;
+}
+
+/* padding individual */
+.padding-individual {
+  background-color: black;
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+/* Shorthand padding */
+.shorthand-padding {
+  background-color: #000;
+  color: white;
+  padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Border box */
+.without-border-box {
+  background-color: #000;
+  color: #fff;
+  width: 400px;
+  padding: 50px;
+}
+
+.border-box {
+  background-color: #c12f2f;
+  color: #fff;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+/* Border */
+
+.border {
+  border: 5px solid red;
+  padding: 10px;
+}
+
+.border-2 {
+  border: 2px dotted rgb(40, 8, 8);
+  padding: 25px;
+}
+
+/* Borda individual */
+
+.border-left {
+  border-left: 3px solid red;
+  background-color: #000;
+  padding: 25px;
+}
+
+.border-bottom {
+  border-bottom: 5px double#399;
+  background-color: black;
+  padding: 25px;
+}
+
+/* borda arredondada */
+.rounded-p {
+  border: 4px solid blue;
+  background-color: #000;
+  color: blue;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.rounded-p-2 {
+  background-color: #000;
+  color: blue;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+/* Margem */
+
+.margin {
+  margin: 10px;
+  background-color: black;
+  color: white;
+}
+
+.margin-top {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.margin-shorthand {
+  background-color: black;
+  color: white;
+  margin: 5px 10px 15px 20px;
+}
+
+/* Box model */
+.box-model {
+  margin: 20px;
+  padding: 15px 25px;
+  border: 3px solid #845;
+  border-radius: 7px;
+  width: 400px;
+  height: 200px;
+}
+
+/* Desafio 3 */
+#box-model-challenge {
+  margin: 15px;
+  padding: 15px;
+  border: 5px solid #459;
+  outline: 5px solid #952;
+  background-color: #123;
+}
+
+.challenge-title {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+/* Text Align */
+.text-aligned {
+  text-align: right;
+}
+
+.container-center {
+  text-align: center;
+  width: 300px;
+  border: 1px solid red;
+}
+
+/* Text decoration */
+.underline {
+  text-decoration: underline;
+}
+
+.line-trough {
+  text-decoration: line-through;
+}
+
+.remove-underline {
+  text-decoration: none;
+  color: red;
+}
+
+/* Text Transform */
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+/* letter spacing */
+.spacing {
+  letter-spacing: 5px;
+}
+
+/* Fontes */
+
+.serif {
+  font-family: Georgia;
+}
+
+.sans-serif {
+  font-family: Helvetica;
+}
+
+.monospace {
+  font-family: "Courier New";
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+/* Text style */
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+/* font weight */
+.thin,
+.bold,
+.bolder {
+  font-family: Helvetica;
+}
+.thin {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 800;
+}
+
+/* font size */
+.small{
+    font-size: 6px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+
+/* Display */
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #4f8;
+    margin: 10px;
+    display: block;
+}
+
+/* Escondendo elemento */
+.invisible {
+    display: none;
+}
+
+/* Static */
+.static {
+    position: static;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative  */
+.relative { /* Não é tão utilizado, pq se tiver outros componentes na sequencia, pode ser que um fique sobre o outro. */
+    position: relative;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 30px;
+}
+
+/* Absolute */
+.absolute { /* Não é tão utilizado, pq se tiver outros componentes na sequencia, pode ser que um fique sobre o outro. */
+    position: absolute;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+
+}
+
+/* Relative container e position absolute */
+.relative-container {
+    width: 300px;
+    height: 300px;
+    margin-top: 120px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #00eaff;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 50px;
+    left: 50px;
+}
+
+.absolute-2 {
+    bottom: 50px;
+    right: 50px;
+}
+
+/* Fixed */
+.fixed {
+    height: 200px;
+    border: 1px solid blue;
+    background-color: #851;
+    position: fixed;
+    top: 0px;
+}
+
+/* Sticky */
+.sticky {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #994;
+    background-color: green;
+    position: sticky;
+    top: 50px;
+    right: 100px;
+}
+
+/* Z-index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 1;
+}
+
+.absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+}
